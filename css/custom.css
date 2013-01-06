@@ -25,3 +25,8 @@ header {
 #gallery {
   background: #e8eded;
 }
+
+.centered {
+  margin: 0px auto;
+  display: block;
+}
