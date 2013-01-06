@@ -5,8 +5,13 @@
     <title>EMSAC 2013 - Home</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
-    <script src="js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/twitter.css" />
+    <link rel="stylesheet" type="text/css" href="jScrollPane/jquery.jscrollpane.css" />
+      <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script type="text/javascript" src="jScrollPane/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="jScrollPane/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
   </head>
   <body>
@@ -50,12 +55,28 @@
     </div>
     <div class="container">
       <div class="row">
-	<div class="span12">
+	<div class="span8">
 
 	  <!-- Insert text here -->
 	  <h1>Home</h1>
 	  <p>Welcome on the website of EMSAC 2013! Here you can find anything you want to know about EMSAC 2013. You can find information about the program and the goals of EMSAC 2013, information about Maritime Technology at the TU Delft and information about student association S.G. “William Froude” and the EMSAC committee. You can also have a look at photos from EMSACs held in the past. In case you still have a burning question, you can ask it on the forum or by contacting us. Enjoy your visit to our website!</p>
           <!-- ================ -->
+	</div>
+	<div class="span4 flag">
+	  <div id="twitter-ticker">
+	    <div id="top-bar">
+	      <div id="twitIcon">
+		<img src="img/twitter_64.png" width="64" height="64" alt="Twitter icon" />
+	      </div>
+              <h2 class="tut">EMSAC</h2>
+            </div>
+            <div id="tweet-container">
+	      <img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." />
+	    </div>
+            <div id="scroll"></div>
+	  </div>
+	  <a href="https://twitter.com/vendeeglobe" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @vendeeglobe</a>
+	  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
       </div>    
       <footer>
