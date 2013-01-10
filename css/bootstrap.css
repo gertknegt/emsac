@@ -66,19 +66,19 @@ sub {
   bottom: -0.25em;
 }
 
-img {
-  width: auto\9;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
+/* img { */
+/*   width: auto\9; */
+/*   height: auto; */
+/*   max-width: 100%; */
+/*   vertical-align: middle; */
+/*   border: 0; */
+/*   -ms-interpolation-mode: bicubic; */
+/* } */
 
-#map_canvas img,
-.google-maps img {
-  max-width: none;
-}
+/* #map_canvas img, */
+/* .google-maps img { */
+/*   max-width: none; */
+/* } */
 
 button,
 input,
