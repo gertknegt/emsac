@@ -1,4 +1,4 @@
-var tweetUsers = ['vendeeglobe'];
+var tweetUsers = ['EmsacFroude'];
 var buildString = "";
 
 $(document).ready(function(){
