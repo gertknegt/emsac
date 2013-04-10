@@ -12,6 +12,10 @@ header {
     text-align: left;
 }
 
+footer {
+    padding-top: 30px;
+}
+
 .center {
     float: none;
     margin-left: auto;
