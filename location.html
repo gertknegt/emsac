@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>EMSAC 2013 - Location</title>
+    <title>Location</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" />
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -11,56 +11,83 @@
     <script type="text/javascript" src="js/html5.js"></script>
   </head>
   <body>
-    <header class="navbar navbar-fixed-top">
-      <div class="container">
-      <img src="img/Logo_EMSAC.png" class="img-rounded" alt="" />
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="#">Home</a>
-          <nav>
-            <ul class="nav pull-right" role="navigation">
-              <li class="dropdown">
-                <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                  <li role="menuitem"><a tabindex="-1" href="froude.html">S.G. "William Froude"</a></li>
-                  <li role="menuitem"><a tabindex="-1" href="organisation">Organisation</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a id="drop2" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">EMSAC <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
-                  <li role="menuitem"><a tabindex="-1" href="goals.html">Goals</a></li>
-                  <li role="menuitem"><a tabindex="-1" href="programme.html">Programme</a></li>
-                  <li role="menuitem" class="divider"></li>
-                  <li role="menuitem"><a tabindex="-1" href="photos.html">Photo's Previous Events</a></li>
-                </ul>
-              </li>
-                <li class="dropdown">
-                  <a id="drop2" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Particpants <b class="caret"></b></a>
-                  <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
-                    <li role="menuitem"><a tabindex="-1" href="germany.html">Germany</a></li>
-                    <li role="menuitem"><a tabindex="-1" href="russia.html">Russia</a></li>
-                    <li role="menuitem"><a tabindex="-1" href="scotland.html">Scotland</a></li>
-                  </ul>
-              <li class="dropdown">
-                <a id="drop3" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Location <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
-                  <li role="menuitem"><a tabindex="-1" href="netherlands.html">The Netherlands</a></li>
-                  <li role="menuitem"><a tabindex="-1" href="tu-delft.html">TU Delft</a></li>
-                  <li role="menuitem"><a tabindex="-1" href="maritime-technology.html">Maritime Technology</a></li>
-                    <li role="menuitem"><a tabindex="-1" href="student-homes.html">Student Homes</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
+    <div class="container">
+      <header class="navbar">
+        <img src="img/Logo_EMSAC.png" class="img-rounded" alt="" />
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="brand" href="index.html">Home</a>
+            <nav>
+              <ul class="nav pull-right" role="navigation">
+                <li><a href="about.html">About</a></li>
+                <li><a href="emsac.html">EMSAC</a></li>
+                <li><a href="participants.html">Participants</a></li>
+                <li><a href="location.html">Location</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <ul id="aboutTab" class="nav nav-tabs">
+        <li class="active"><a href="#netherlands" data-toggle="tab">the Netherlands</a></li>
+        <li><a href="#tu-delft" data-toggle="tab">TU Delft</a></li>
+        <li><a href="#maritime-technology" data-toggle="tab">Maritime Technology</a></li>
+        <li><a href="#student-homes" data-toggle="tab">Student Homes</a></li>
+      </ul>
+
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="netherlands">
+          <div class="span10">
+            <h3>The Netherlands</h3>
+            <p>The Netherlands is a relatively small country located in North-West Europe and has almost 17 million inhabitants. The country is bordered by Germany, Belgium and the North Sea. Netherlands is divided into 12 provinces.</p>
+            <p>Our capital is the famous city of Amsterdam. The Hague is the city where the government has settled. Our country is a monarchy and the present king called Willem-Alexander. The Dutch flag has horizontal colors red-white-blue.</p>
+            <p>Typically Dutch are the tulips, windmills, cheese, clogs, croquettes and drop.</p>
+            <p>The Netherlands is dominated by water. Our economy can’t work without harbors and rivers. For recreation there are plenty of lakes in the Netherlands. Moreover, The Netherlands lies largely below sea level and our dikes guard as it were our country. Well-known examples are the Delta Works and the ‘afsluitdijk’. Our country is good at developing and applying knowledge about water.</p>
+          </div>
+          <div class="span2 flag">
+            <div class="thumbnail">
+              <img src="img/de-nederlandse-vlag.jpg" class="" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tu-delft">
+          <div class="span6">
+            <h3>TU Delft</h3>
+            <p>TU Delft is the largest and most comprehensive technical university in the Netherlands. TU Delft exists more than 165 years, but only bears its present name since 1986.</p>
+            <p>TU Delft cooperates with many other educational and research institutions at home and abroad and is known for its high standard of research and education. TU Delft has numerous contacts with governments, trade associations, consultancies and industry. The university consists of several faculties.</p>
+          </div>
+          <div class="span6 flag">
+            <a href="http://maps.google.nl/maps?hl=nl&gs_rn=1&gs_ri=hp&cp=8&gs_id=4&xhr=t&bav=on.2,or.r_gc.r_pw.r_qf.&bvm=bv.1355534169,d.d2k&bpcl=40096503&ion=1&biw=1294&bih=741&um=1&ie=UTF-8&q=tu+delft&fb=1&gl=nl&hq=tu+delft&hnear=0x47c66f4339d32d37:0xd6c8fc4c19af4ae9,Utrecht&sa=X&ei=U-vlUOSiLYmm0QW6pYCoAw&sqi=2&ved=0CJYBELYD"><img src="http://www.google.nl/maps/vt/data=Ay5GWBeob_WIPLDYoIWcfVXxvZu9XwJ55OX7Ag,-Baa-_tw7ZeEXknwYOdKi1z2AOZgj7lOD6i6hxwnPHVgfOD5lnOc75hY76K1MMDPPT5bG47t3oJ8Dtaw-Vwznjhc1iQ9pBPjI2qVVT3jEjQ4xGCrObBOTp47fsFKyaP0RM7K-8jFJs_gwtkdhHlcsMNkJQ8J9sgSR0h36tkB-DwhHNRBJ8fRA3E79hYT4aelzXVxnqM80fY072yVWJAWna51V2XR6ztz3lTKXt-RgRlsVDmDh0XN9Ey_Jal5iZ_5rG7qyShJ3-NcLSKTGy8W7dSOPaPZwaHGnh86MClh_hkM4LR2RoxF" class="" alt="" /></a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="maritime-technology">
+          <div class="span6">
+            <h3>Maritime Technology</h3>
+            <p>In the Nederlands, a country dominated by water, shipping is indispensable. Therefore TU Delft offers the course Maritime Technology. An educational programme that covers all the aspects of shipbuilding. But not only ship building. Drilling rigs, shipping companies, shipping routes, insurance, oil and gas, offshore installations, pipe and cable laying and heavy transport are all maritime technology! You can find more information on our Bachelors and Master degree at <a href="http://www.tudelft.nl/en/">www.tudelft.nl</a></p>
+          </div>
+          <div class="span6 flag">
+            <div class="thumbnail">
+              <img src="img/location-maritime-technology.jpg" class="centered" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="student-homes">
+          <div class="span6">
+            <h3>Student Homes</h3>
+            <p>During your stay in Delft as a participant in the EMSAC you will sleep in a student house. Delft is not a big city and  most houses are in and around the city center. The TU Delft is also within walking distance from the center.</p>
+            <p>In all the student houses lives at least 1 maritime engineering student. He or she can help you and tell you a lot during your stay and show you all the facets of student life in Delft. In short, a unique opportunity to see what it’s like to live as a student in Delft. Moreover, you can gain international contacts!</p>
+          </div>
+          <div class="span6 flag">
+            <div class="thumbnail">
+              <img src="img/delft-bikes.jpg" class="" alt="" />
+            </div>
+            <div class="thumbnail">
+              <img src="img/delft-grote-markt.jpg" class="" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-      <hr/>
-      </div>
-    </header>
-    <div class="container">
-      <div class="row">
-        <footer>
+      <footer>
         <div class="navbar">
           <div class="navbar-inner">
             <div class="container">
@@ -95,8 +122,7 @@
             </div>
           </div>
         </div>
-        </footer>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
